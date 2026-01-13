@@ -1,0 +1,18 @@
+# Claude Code temporäre Dateien
+tmpclaude-*
+.claude/
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor-Dateien
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
