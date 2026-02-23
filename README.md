@@ -36,6 +36,9 @@ Die Prosa-Versionen enthalten denselben fachlichen Inhalt, jedoch ohne strukturi
 | [06_Proposal_SignalScope_Prosa.md](06_Proposal_SignalScope_Prosa.md) | Signalanalyse (Prosa) |
 | [07_Proposal_WaveForge_Prosa.md](07_Proposal_WaveForge_Prosa.md) | DSP-Lernplattform (Prosa) |
 | [08_Proposal_PowerGridAnalyzer_Prosa.md](08_Proposal_PowerGridAnalyzer_Prosa.md) | Netzqualität (Prosa) |
+| [09_Proposal_TeamQuest.md](09_Proposal_TeamQuest.md) | Kooperatives Echtzeit-Rätselspiel (Prosa) |
+| [10_Proposal_DataPulse.md](10_Proposal_DataPulse.md) | Echtzeit-Dashboard mit externen APIs (Prosa) |
+| [11_Proposal_SecureCollab.md](11_Proposal_SecureCollab.md) | Sicheres Dateimanagement mit Audit (Prosa) |
 
 ### Weitere Dateien
 
@@ -59,6 +62,9 @@ Die Prosa-Versionen enthalten denselben fachlichen Inhalt, jedoch ohne strukturi
 | **SignalScope** | Worker + Streaming | InfluxDB + PostgreSQL + Redis | - | DSP, FFT, Anomalieerkennung |
 | **WaveForge** | Client + Backend | PostgreSQL | - | Filterdesign, Modulation, C-Code-Export |
 | **PowerGridAnalyzer** | Pipeline | InfluxDB + PostgreSQL | - | Oberschwingungen, EN 50160 |
+| **TeamQuest** | WebSocket + Game Engine | PostgreSQL + In-Memory | - | Prozedurale Rätselgenerierung, Echtzeit-Multiplayer |
+| **DataPulse** | Widget-basiert + API-Proxy | PostgreSQL + Cache | Wetter, Finanzen, News | Drag&Drop Dashboard, Alerting |
+| **SecureCollab** | Service-basiert (RBAC) | PostgreSQL + verschlüsselter Dateispeicher | SMTP | AES-256, 2FA (TOTP), Audit-Trail (Append-Only) |
 
 ### Research-Komponenten
 
@@ -72,6 +78,9 @@ Die Prosa-Versionen enthalten denselben fachlichen Inhalt, jedoch ohne strukturi
 | **SignalScope** | DSP-Algorithmen-Vergleich (FFT, Filter) | Research-Report (12+ Seiten) |
 | **WaveForge** | Filterdesign-Methoden-Vergleich | Research-Report + Didaktik-Konzept |
 | **PowerGridAnalyzer** | PQ-Algorithmen-Vergleich | Research-Report + Normen-Doku |
+| **TeamQuest** | Prozedurale Rätselgenerierung (Lösbarkeitsgarantie) | Simulations-Report (1000+ Rätsel) |
+| **DataPulse** | API-Caching & Rate-Limit-Strategien | Caching-Strategie-Doku |
+| **SecureCollab** | DSGVO-Löschlogik (Löschpflicht vs. Aufbewahrungspflicht) | DSGVO-Konzept + Schlüsselmanagement-Doku |
 
 ### Test-Schwerpunkte
 
@@ -85,6 +94,9 @@ Die Prosa-Versionen enthalten denselben fachlichen Inhalt, jedoch ohne strukturi
 | **SignalScope** | Referenz-Signal-Tests, DSP-Validierung | Referenz-Signal-Report |
 | **WaveForge** | Filterdesign-Tests, Code-Generator-Tests | Filterdesign-Report |
 | **PowerGridAnalyzer** | Norm-Konformitäts-Tests, Event-Erkennung | EN 50160-Compliance-Report |
+| **TeamQuest** | Rätsel-Lösbarkeits-Simulation, WebSocket-Stabilität | Lösbarkeits-Report, Lasttest-Report |
+| **DataPulse** | API-Fehlerbehandlung (Mocks), Alert-Korrektheit | API-Resilience-Report |
+| **SecureCollab** | RBAC-Vererbungstests, Audit-Unveränderlichkeit, Verschlüsselung | Security-Test-Report |
 
 ---
 
